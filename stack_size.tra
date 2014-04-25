@@ -1,0 +1,21 @@
+*** Creating Trace Output File 'stack_size.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup_lpc17xx.o"'
+### List of Objects: adding '"main.o"'
+### List of Objects: adding '"system_lpc17xx.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 "startup_lpc17xx.o" "main.o" "system_lpc17xx.o" --strict --scatter "stack_size.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\stack_size.map" -o "stack_size.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'stack_size.axf'
+### ADS-LD Command File: 'stack_size.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'stack_size.lnp', Handle=0x000009A0
+### Writing '.lnp' file
+### ADS-LD Command file 'stack_size.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
